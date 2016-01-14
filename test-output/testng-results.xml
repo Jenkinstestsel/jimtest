@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46598" started-at="2016-01-08T15:29:25Z" finished-at="2016-01-08T15:30:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46598" started-at="2016-01-08T15:29:25Z" finished-at="2016-01-08T15:30:12Z">
+      <class name="sceanrios_TCs.Login_Scenario">
+        <test-method status="PASS" signature="invalid_login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sceanrios_TCs.Login_Scenario@16eb2ec]" name="invalid_login" duration-ms="19686" started-at="2016-01-08T20:59:26Z" data-provider="DP_invalid_login" finished-at="2016-01-08T20:59:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Raje]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ghagh]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sorry we were unable to complete this step because :]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_login -->
+        <test-method status="PASS" signature="invalid_login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sceanrios_TCs.Login_Scenario@16eb2ec]" name="invalid_login" duration-ms="26220" started-at="2016-01-08T20:59:46Z" data-provider="DP_invalid_login" finished-at="2016-01-08T21:00:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Raje]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[learn123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sorry we were unable to complete this step because :]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_login -->
+      </class> <!-- sceanrios_TCs.Login_Scenario -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
